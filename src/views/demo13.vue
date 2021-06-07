@@ -1,0 +1,30 @@
+<!--
+ * @version: 1.0.0
+ * @Author: liubofang<421419567@qq.com>
+ * @Date: 2021-06-05 14:30:36
+ * @LastEditTime: 2021-06-05 18:29:44
+-->
+<template>
+<Home />
+</template>
+
+<script>
+// 1、引入组件
+import Home from '../components/demo13/Home'
+export default {
+  name: 'demo13',
+  data () {
+    return {
+      msg: 'app根组件'
+    }
+  },
+  // 2、挂载组件
+  components: {
+    Home
+  }
+}
+</script>
+
+<style lang="scss">
+
+</style>
